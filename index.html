@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>共脑智营 CommonBrain Ops</title>
+  <meta name="description" content="面向中小服务业的可审计、多模型、多智能体运营操作系统。">
+  <style>
+    :root { --ink:#14213d; --muted:#5f6b85; --line:#dbe3f0; --bg:#f6f8fc; --card:#fff; --accent:#5267e8; --accent2:#18a58a; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); background:var(--bg); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif; line-height:1.65; }
+    .wrap { width:min(1100px, calc(100% - 40px)); margin:0 auto; }
+    header { padding:86px 0 64px; background:linear-gradient(135deg,#eef1ff,#f7fbff 55%,#ebfaf6); border-bottom:1px solid var(--line); }
+    .eyebrow { color:var(--accent); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:.82rem; }
+    h1 { font-size:clamp(2.2rem,6vw,4.8rem); line-height:1.05; margin:16px 0 20px; letter-spacing:-.04em; }
+    .lead { max-width:760px; font-size:1.25rem; color:var(--muted); }
+    .pill { display:inline-block; padding:5px 12px; margin:8px 8px 0 0; border:1px solid #cbd4ff; border-radius:999px; color:#4055c7; background:#fff; font-size:.9rem; }
+    main { padding:54px 0 80px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin:28px 0 46px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:24px; box-shadow:0 8px 28px rgba(30,53,100,.05); }
+    h2 { margin:0 0 16px; font-size:1.55rem; }
+    h3 { margin:0 0 8px; font-size:1.08rem; }
+    p { margin:8px 0 0; color:var(--muted); }
+    ul { padding-left:20px; color:var(--muted); }
+    .architecture { background:#101a34; color:#e9eeff; border-radius:18px; padding:26px; overflow:auto; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; white-space:pre; line-height:1.5; }
+    .status { display:flex; gap:10px; flex-wrap:wrap; margin:24px 0 0; }
+    .status span { padding:7px 12px; border-radius:9px; background:#fff; border:1px solid var(--line); font-size:.9rem; }
+    .ok { color:#087b64; } .next { color:#a15c00; }
+    footer { padding:30px 0 50px; color:var(--muted); font-size:.9rem; }
+    @media (max-width:760px) { .grid { grid-template-columns:1fr; } header { padding:58px 0 44px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">CommonBrain Ops · AI Operations Infrastructure</div>
+      <h1>共脑智营</h1>
+      <div class="lead">面向中小服务业的可审计、多模型、多智能体运营操作系统。让企业 AI 用得起、管得住、查得到、随时可换模型。</div>
+      <div class="status"><span class="ok">● 内部试点进行中</span><span class="next">● 公开 Demo 整理中</span><span>国产模型兼容路线</span><span>企业微信 / 飞书入口</span></div>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <section>
+        <h2>我们解决什么问题</h2>
+        <div class="grid">
+          <div class="card"><h3>事实不一致</h3><p>不同 Agent 和不同工作入口各自记忆，导致重复劳动和相互矛盾。</p></div>
+          <div class="card"><h3>模型不可治理</h3><p>额度、延迟、价格和供应商故障缺少统一路由与降级策略。</p></div>
+          <div class="card"><h3>Demo 难以生产</h3><p>缺少权限、来源、评测、审计、健康检查和恢复机制。</p></div>
+        </div>
+      </section>
+      <section>
+        <h2>产品架构</h2>
+        <div class="architecture">企业微信 / 飞书 / Web
+          │
+统一网关、身份与权限
+          │
+岗位 Agent 与业务工作流
+          │
+共享事实层 ─ 企业知识库 ─ 来源引用
+          │
+CommonBrain Router
+  ├─ 国产云模型 / 超算互联网
+  ├─ 其他兼容模型
+  └─ 本地开源模型
+          │
+审计日志 / 健康检查 / 备份恢复 / Eval 闸门</div>
+      </section>
+      <section style="margin-top:46px">
+        <h2>当前成果</h2>
+        <div class="grid">
+          <div class="card"><h3>多渠道入口</h3><p>连接企业日常使用的消息入口，降低员工切换成本。</p></div>
+          <div class="card"><h3>共享事实层</h3><p>统一记录事件、决定、任务状态和来源，支持跨 Agent 协作。</p></div>
+          <div class="card"><h3>动态模型路由</h3><p>结合任务、额度、可靠性、延迟和预算进行选择、熔断和降级。</p></div>
+        </div>
+      </section>
+      <section style="margin-top:46px">
+        <h2>下一阶段交付</h2>
+        <div class="card"><ul><li>Docker 一键部署和无密钥示例配置</li><li>国产模型/API 兼容适配</li><li>30–50 个脱敏任务统一评测</li><li>权限、提示注入、故障和恢复测试</li><li>CommonBrain Router 免费开发者版本</li></ul></div>
+      </section>
+      <section style="margin-top:46px">
+        <h2>公开说明</h2>
+        <div class="card"><p>本项目基于 Hermes Agent、OpenClaw 等开源组件进行集成，并会在公开仓库中列出第三方许可证与自有模块边界。页面中的内部试点和目标指标将在获得授权、完成脱敏和验证后公开。</p></div>
+      </section>
+    </div>
+  </main>
+  <footer><div class="wrap">CommonBrain Ops · 公开页面模板 · 发布前请补充仓库、演示和联系方式</div></footer>
+</body>
+</html>
