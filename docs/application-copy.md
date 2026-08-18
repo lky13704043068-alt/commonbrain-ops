@@ -16,7 +16,7 @@
 
 公开仓库地址：https://github.com/lky13704043068-alt/commonbrain-ops  
 项目主页：https://lky13704043068-alt.github.io/commonbrain-ops/  
-技术文章：`【发布后填写文章 URL】`  
+技术文章：https://github.com/lky13704043068-alt/commonbrain-ops/blob/main/docs/technical-note.md  
 演示视频：`【发布后填写视频 URL】`
 
 > 注意：发布前不要把 Hermes Agent 上游地址填写成自有代表作品。应先将本仓库发布，并补充真实代码、评测、截图或演示视频。

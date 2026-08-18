@@ -93,6 +93,7 @@ CommonBrain Router
 
 - [GitHub 公开仓库](https://github.com/lky13704043068-alt/commonbrain-ops)
 - [项目主页（GitHub Pages，构建完成后可访问）](https://lky13704043068-alt.github.io/commonbrain-ops/)
+- [技术文章：从“多 Agent”到“可审计 Agent 系统”](./docs/technical-note.md)
 - [项目公开主页](./index.html)
 - [申报材料与审核问答](./docs/application-copy.md)
 - [证据与发布检查表](./docs/evidence-checklist.md)
