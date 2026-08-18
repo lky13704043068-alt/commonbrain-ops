@@ -91,6 +91,8 @@ CommonBrain Router
 
 ## 公开材料
 
+- [GitHub 公开仓库](https://github.com/lky13704043068-alt/commonbrain-ops)
+- [项目主页（GitHub Pages，构建完成后可访问）](https://lky13704043068-alt.github.io/commonbrain-ops/)
 - [项目公开主页](./index.html)
 - [申报材料与审核问答](./docs/application-copy.md)
 - [证据与发布检查表](./docs/evidence-checklist.md)
@@ -99,4 +101,3 @@ CommonBrain Router
 ## 免责声明
 
 本仓库在公开发布前仍处于整理阶段。文档中的目标指标不代表已完成结果；内部试点数据需要在获得授权并完成脱敏后才能对外使用。
-
