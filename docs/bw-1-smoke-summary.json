@@ -1,0 +1,14 @@
+{
+  "date": "2026-08-21",
+  "resource": "SCNet BW-1 Notebook, 1 BW HCU",
+  "model": "Qwen3-0.6B",
+  "runtime": "vllm 0.11.0+das.opt1.dtk2604.torch290",
+  "health_http": 200,
+  "models_http": 200,
+  "synthetic_task_count": 5,
+  "synthetic_http_success": 5,
+  "latency_ms": {"avg": 2971.6, "min": 2788.2, "max": 3633.9},
+  "model_sha256": "f47f71177f32bcd101b7573ec9171e6a57f4f4d31148d38e382306f42996874b",
+  "synthetic_only": true,
+  "note": "Smoke baseline only; not a production quality or throughput claim."
+}
