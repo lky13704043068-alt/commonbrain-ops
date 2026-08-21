@@ -33,6 +33,8 @@ CommonBrain Ops 将企业微信、飞书和 Web 等工作入口，与岗位智�
 
 已完成一轮 SCNet BW-1 国产模型链路冒烟：在官方 DAS 运行时上加载 Qwen3-0.6B，启动 OpenAI-compatible vLLM 服务，并用 5 个合成任务验证健康检查、模型列表、路由调用和审计记录。详见 [`docs/bw-1-adaptation.md`](docs/bw-1-adaptation.md) 和 [`docs/bw-1-runbook.md`](docs/bw-1-runbook.md)。该结果是环境与链路基线，不代表生产级模型质量或吞吐。
 
+高端模型路线已升级为 SCNet 正式条目 `DeepSeek-V4-Flash-0731`（284B 总参数、13B 激活参数）的一键国产卡部署，并以 `Qwen3.8-27B-FP8` 作为 27B 级别的第二适配基准。当前 8 卡模型服务仍需在 SCNet 控制台实际创建后再发布吞吐和 API 指标，完整边界记录见 [`docs/high-end-model-track.md`](docs/high-end-model-track.md)。
+
 ## 核心架构
 
 ```text
