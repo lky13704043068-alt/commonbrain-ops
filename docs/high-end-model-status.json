@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-21",
+  "primary_model": {
+    "model": "DeepSeek-V4-Flash-0731",
+    "scnet_catalog": "confirmed",
+    "official_model_page": "https://www.scnet.cn/ui/aihub/models/sugon_scnet/DeepSeek-V4-Flash-0731",
+    "one_click_entry": "confirmed_on_public_model_page",
+    "target_resource": "异构加速卡 BW 64GB x 8",
+    "deployment_status": "pending_authenticated_console_and_8_card_service",
+    "api_status": "not_claimed_until_service_health_check"
+  },
+  "secondary_model": {
+    "model": "Qwen3.8-27B-FP8",
+    "source": "https://modelscope.cn/models/Qwen/Qwen3.8-27B-FP8",
+    "weights_sha256_checked": true,
+    "weights_size_gib_approx": 29,
+    "transformers_model_load": "passed",
+    "vllm_0_11_architecture_support": "failed_qwen3_5_not_supported",
+    "transformers_fp8_generation": "failed_rocm_triton_kernel_segmentation_fault",
+    "production_api": false
+  },
+  "baseline": {
+    "model": "Qwen3-0.6B",
+    "scnet_bw1_vllm_smoke": "passed",
+    "bounded_stress_requests": 384,
+    "synthetic_data_only": true
+  }
+}
