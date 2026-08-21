@@ -31,7 +31,7 @@ CommonBrain Ops 将企业微信、飞书和 Web 等工作入口，与岗位智�
 5. 模型故障、额度耗尽、提示注入和越权测试；
 6. CommonBrain Router 免费开发者版本。
 
-已完成一轮 SCNet BW-1 国产模型链路冒烟：在官方 DAS 运行时上加载 Qwen3-0.6B，启动 OpenAI-compatible vLLM 服务，并用 5 个合成任务验证健康检查、模型列表、路由调用和审计记录。详见 [`docs/bw-1-adaptation.md`](docs/bw-1-adaptation.md)。该结果是环境与链路基线，不代表生产级模型质量或吞吐。
+已完成一轮 SCNet BW-1 国产模型链路冒烟：在官方 DAS 运行时上加载 Qwen3-0.6B，启动 OpenAI-compatible vLLM 服务，并用 5 个合成任务验证健康检查、模型列表、路由调用和审计记录。详见 [`docs/bw-1-adaptation.md`](docs/bw-1-adaptation.md) 和 [`docs/bw-1-runbook.md`](docs/bw-1-runbook.md)。该结果是环境与链路基线，不代表生产级模型质量或吞吐。
 
 ## 核心架构
 
